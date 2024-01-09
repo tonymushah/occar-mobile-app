@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "occar",
     "name": "occar-mobile-app",
     "slug": "occar-mobile-app",
     "version": "1.0.0",
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
